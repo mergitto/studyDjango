@@ -42,6 +42,8 @@ pip install django
 ```
 
 Djangoのプロジェクトを作成
+この時Djangoやtestといった名前を使用しないようにしてください！
+他にもpythonのモジュールやコンポーネント名などがある
 ```
 django-admin.py startproject 作成したいプロジェクト名
 ```
