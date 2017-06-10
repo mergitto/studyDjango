@@ -24,7 +24,7 @@ polls/
 ### 初めてのビュー作成
 初めてのビューを描いてみましょう！  
 polls/views.pyを開き以下のコードを書いてください
-```python:polls/views.py
+```python:views.py
 from django.http import HttpResponse
 
 def index(request):
@@ -45,7 +45,8 @@ polls/
   views.py
 ```
 urls.pyファイルには以下のコードを書いてください
-```python:polls/urls.py
+polls/urls.py
+```python:urls.py
 from django.conf.urls import url
 
 from . import views
@@ -56,7 +57,7 @@ urlpatterns = [
 ```
 次に、ルートディレクトリのURLconfにpolls.pyモジュールの設定を反映させなければなりません  
 mysite/urls.pyにdjango.conf.urls.includeのimportを追加してurlpatternsのリストにinclude()を挿入します
-```python:mysite/urls.py
+```python:urls.py
 from django.conf.urls import include, url
 from django.contrib import admin
 
