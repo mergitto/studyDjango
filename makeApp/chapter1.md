@@ -24,7 +24,7 @@ polls/
 ### 初めてのビュー作成
 初めてのビューを描いてみましょう！  
 polls/views.pyを開き以下のコードを書いてください
-```php:hoge.php
+```python:views.py
 from django.http import HttpResponse
 
 def index(request):
