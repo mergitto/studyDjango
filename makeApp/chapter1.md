@@ -9,7 +9,7 @@ python manage.py startapp polls
 ```
 このコマンドによってpollsディレクトリが作成されているはずです  
 ディレクトリの構成は以下の通りです  
-````
+```
 polls/
   __init__.py
   admin.py
