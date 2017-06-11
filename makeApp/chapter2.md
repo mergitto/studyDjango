@@ -6,7 +6,7 @@
 SQLiteは本番環境で使用するためには使用することはないが、単純にDjangoを試したい場合には簡単で使いやすいものです  
 ちなみにPostgresqlを使用したい場合は以下のコマンドでPython用のPostgreSQLアダプタをインストールして、settings.pyの中身を書き換えなければならない  
 `pip install psycopg2`
-````python:settings.py
+```python:settings.py
 DATABASES = {
     'default': {
          'ENGINE': 'django.db.backends.postgresql_psycopg2',
