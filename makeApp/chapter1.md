@@ -24,12 +24,14 @@ polls/
 ### 初めてのビュー作成
 初めてのビューを描いてみましょう！  
 polls/views.pyを開き以下のコードを書いてください
+
 ```python:views.py
 from django.http import HttpResponse
 
 def index(request):
     return HttpResponse("Hello, world. You're at the polls index.")
 ```
+
 Djangoにおいて最も単純なビューとなりますが、このビューを呼び出すためにはURLを対応付けする必要があります  
 pollsディレクトにURLconfを作成するためにはurls.pyというファイルを作成します
 ```
@@ -46,6 +48,7 @@ polls/
 ```
 urls.pyファイルには以下のコードを書いてください
 polls/urls.py
+
 ```python:urls.py
 from django.conf.urls import url
 
@@ -55,8 +58,10 @@ urlpatterns = [
     url(r'^$', views.index, name='index'),
 ]
 ```
+
 次に、ルートディレクトリのURLconfにpolls.pyモジュールの設定を反映させなければなりません  
 mysite/urls.pyにdjango.conf.urls.includeのimportを追加してurlpatternsのリストにinclude()を挿入します
+
 ```python:urls.py
 from django.conf.urls import include, url
 from django.contrib import admin
@@ -66,6 +71,7 @@ urlpatterns = [
     url(r'^admin/', admin.site.urls),
 ]
 ```
+
 include()は他のURLconfの参照を許可します  
 Djangoがinclude()に遭遇すると一致した箇所をURLから切り落とし、次の処理のために残りの文字列をincludeされたURLconfに渡します  
 pollsには独自のURLconf(polls/urls.py)を持っているので「polls/」、「fun_polls/」、「content/polls」のようなどんなパスルートかにも置くことができる  
