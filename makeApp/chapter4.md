@@ -1,8 +1,3 @@
-```php:hello.php
-function hellow(){
-　return "hello world!";
-}
-```
 ### 管理者画面の設計
 アプリケーションには欠かせない管理者の作成とその画面を作成するところまでをやっていきましょう！  
 
