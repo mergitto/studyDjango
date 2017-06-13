@@ -153,3 +153,5 @@ True
 >>> c = q.choice_set.filter(choice_text__startswith='Just hacking')
 >>> c.delete()
 ```
+
+[CHapter4](https://github.com/mergitto/studyDjango/blob/master/makeApp/chapter4.md)に続く

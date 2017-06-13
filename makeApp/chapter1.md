@@ -104,4 +104,4 @@ Djangoがマッチする正規表現を見つけるとDjangoは指定された�
 **name**
 URLに名前付けしておけばDjangoのどこからでも明確に参照でき、この便利な機能のおかげでプロジェクトとのURLにグローバルな変更を加える場合にも1つのファイルを変更するだけで済むようになります  
 
-chapter2.mdに続く
+[chapter2.md](https://github.com/mergitto/studyDjango/blob/master/makeApp/chapter2.md)に続く

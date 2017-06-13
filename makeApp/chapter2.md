@@ -159,3 +159,5 @@ migrateコマンドは適用されていないマイグレーションを補足�
 - データベースに変更を適用するために`python manage.py migrate`を実行します
 マイグレーションの作成と適用のコマンドが分割されている理由は、マイグレーションをバージョン管理しアプリとともに配布するためです  
 つまり自分の開発だけでなく、他の開発者、本番環境にとって使いやすくなるのである  
+
+[chapter3](https://github.com/mergitto/studyDjango/blob/master/makeApp/chapter3.md)に続く

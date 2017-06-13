@@ -202,3 +202,5 @@ urlpatterns = [
 <li><a href="{% url 'polls:detail' question.id %}">{{ question.question_text }}</a></li>
 ```
 ビューをかけるようになったらchapter5で簡単なフォームの処理と汎用ビューについて学びましょう！
+
+[chapter5](https://github.com/mergitto/studyDjango/blob/master/makeApp/chapter5.md)に続く
