@@ -7,5 +7,5 @@ environmentMakeディレクトリにて説明
 ### [プロジェクト作成時のファイル構成](https://github.com/mergitto/studyDjango/tree/master/fileOrgan "ファイル構成")
 fileOrganディレクトリにてプロジェクト作成時のファイルの構成とそのファイルの役割についての説明を加える
 
-### [アプリ作成](https://github.com/mergitto/studyDjango/tree/master/makeApp "アプリ作成")
+### [アプリ作成](hhttps://github.com/mergitto/studyDjango/blob/master/makeApp/README.md "アプリ作成")
 makeAppディレクトリにて実際にアプリケーションを作りながらDjangoでの開発に慣れていく

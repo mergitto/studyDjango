@@ -154,4 +154,4 @@ True
 >>> c.delete()
 ```
 
-[CHapter4](https://github.com/mergitto/studyDjango/blob/master/makeApp/chapter4.md)に続く
+[Chapter4](https://github.com/mergitto/studyDjango/blob/master/makeApp/chapter4.md)に続く
